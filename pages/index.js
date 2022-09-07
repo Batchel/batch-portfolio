@@ -54,13 +54,13 @@ export default function Home() {
               </div>
 
               <div>
-                <Link href="/Projects/iport">
+                <Link href="/Projects/personalprojects">
                   <a className={utilStyles.menu}> + The way I design and how I think </a>
                 </Link>
               </div>
 
               <div>
-                <Link href="/Projects/iport">
+                <Link href="/Projects/Fun">
                   <a className={utilStyles.menu}> + Click here too! </a>
                 </Link>
               </div>

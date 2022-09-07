@@ -3,32 +3,30 @@ import Head from 'next/head';
 import Image from 'next/image';
 import utilStyles from '../../styles/utils.module.css';
 
-export default function iport2() {
+export default function fun() {
     return(
         <div className={utilStyles.mainproj}>
             <Head>
-                <title>Designing enterprise solutions for Apple products</title>
+                <title>Easter Egg</title>
             </Head>
             <div>
                     <section className={utilStyles.backsign}>
-                    <Link href="/Projects/iport">
+                    <Link href="/">
                         <a className={utilStyles.menu}> <span className={utilStyles.backarrow}> &lsaquo; </span> Back</a>
                     </Link>
                     </section>
                     
                     <section className={utilStyles.heading2Xl}>
-                        <p>IPORT: Side Projects.</p>
+                        <p>My favorite youtube video right now:</p>
                     </section>
                 
                     <section className={utilStyles.projectpar}>
                         <p>
-                        Here is a selection of other things I worked on during my summer at IPORT. 
+                        If you have time, this is worth a listen. 
                         </p>
                     </section>
 
-                    <div>
-                        <Image src='/images/IportIM/Relayjig.jpg' width={1536} height={2048}/>
-                    </div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cEqgeN27Hhk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
             </div>
         </div>

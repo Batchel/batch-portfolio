@@ -89,12 +89,13 @@
 
 
   .main {
-    padding: 8% 15%;
+    padding: 5% 15%;
     display: flex;
   }
 
   .mainproj {
-    padding: 8% 20%;
+    padding: 5% 20%;
+    margin-bottom: 20%;
     display: flex;
   }
 
@@ -122,6 +123,15 @@
     padding: 0 0 40px 0;
   }
 
+  .backsign {
+    font-family: Assistant;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0rem;
+    font-weight: 300;
+    padding: 0 0 0 0;
+  }
+
   .projecthead {
     font-family: Assistant;
     font-size: 20px;
@@ -137,4 +147,8 @@
   
 .padding{
   padding-top: 20%;
+}
+
+.backarrow{
+  font-size: 25px;
 }

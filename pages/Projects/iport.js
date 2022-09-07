@@ -13,6 +13,12 @@ export default function iport() {
                 <title>Designing enterprise solutions for Apple products</title>
             </Head>
             <div>
+                    <section className={utilStyles.backsign}>
+                    <Link href="/">
+                        <a className={utilStyles.menu}> <span className={utilStyles.backarrow}> &lsaquo; </span> Back</a>
+                    </Link>
+                    </section>
+
                     <section className={utilStyles.heading2Xl}>
                         <p>IPORT: Designing enterprise solutions for Apple products.</p>
                     </section>
@@ -33,7 +39,7 @@ export default function iport() {
                     </section>
 
                     <div>
-                        <Image src='/images/IportIM/Ipadflathand.jpg' width={2048} height={1536}/>
+                        <Image src='/images/IportIM/Ipadflathandcrop.jpg' width={2048} height={922}/>
                     </div>
                     
                     <section className={utilStyles.projectpar}>
