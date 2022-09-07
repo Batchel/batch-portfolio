@@ -1,9 +1,8 @@
 html,
 body {
-  padding: 0;
+  padding: 0rem;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Lobster, "Source Serif Pro", "Noto Serif JP","IBM Plex Serif", Assistant;
 }
 
 a {

@@ -108,9 +108,44 @@
   margin-left: 0.5rem;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 1%;
+}
+
+.navmenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.navlink {
+  text-transform: none;
+}
+
+.navlink:hover {
+  /* text-decoration: underline dotted black; */
+  color: black;
+}
+
+.navitem {
+  display: flex;
+  margin-left: -3%;
+  list-style: none;
+  font-family: Assistant;
+  color: lightgrey;
+  font-size: 1rem;
+  padding: 2% 5rem;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
 }
+
+

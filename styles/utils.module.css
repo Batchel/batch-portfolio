@@ -1,0 +1,140 @@
+.heading2Xl {
+    font-size: 30px;
+    font-family: Assistant;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0rem;
+    margin: 0% 0%;
+  }
+  
+  .headingXl {
+    font-size: 20px;
+    font-family: Assistant;
+    line-height: 1.3;
+    font-weight: 500;
+    letter-spacing: 0;
+    margin: 1rem 0;
+  }
+  
+  .headingLg {
+    font-size: 1.5rem;
+    font-family: Assistant;
+    line-height: 1.4;
+    margin: 1rem 0;
+  }
+  
+  .headingMd {
+    font-family: Assistant;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0rem;
+    font-weight: 300;
+  }
+
+  .linkMd {
+    font-family: Assistant;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0rem;
+    font-weight: 300;
+  }
+
+  .linkMd:hover {
+    font-weight: 400;
+  }
+  
+  .borderCircle {
+    border-radius: 9999px;
+  }
+  
+  .colorInherit {
+    color: inherit;
+  }
+  
+  .padding1px {
+    padding-top: 1px;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .listItem {
+    margin: 0 0 1.25rem;
+  }
+  
+  .lightText {
+    color: #666;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    gap: 7%
+    /* justify-content: center; */
+    /* justify-items: center; */
+    /* margin-top: -3%; */
+  }
+
+  .pgrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 7%
+    /* justify-content: center; */
+    /* justify-items: center; */
+    /* margin-top: -3%; */
+  }
+
+
+  .main {
+    padding: 8% 15%;
+    display: flex;
+  }
+
+  .mainproj {
+    padding: 8% 20%;
+    display: flex;
+  }
+
+
+  .card{
+    margin: 0% 25% 15% 0%;
+  }
+
+  .block{
+    display: flex;
+    justify-content: center;
+  }
+
+  .tab{
+    text-indent: 7%;
+  }
+
+
+  .projectpar {
+    font-family: Assistant;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0rem;
+    font-weight: 300;
+    padding: 0 0 40px 0;
+  }
+
+  .projecthead {
+    font-family: Assistant;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0rem;
+    font-weight: 300;
+  }
+
+  .menu:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+.padding{
+  padding-top: 20%;
+}
