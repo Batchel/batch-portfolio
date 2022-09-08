@@ -30,6 +30,7 @@ export default function iport2() {
                         <Image src='/images/IportIM/Relayjig.jpg' width={1536} height={2048}/>
                     </div>
 
+
             </div>
         </div>
     );

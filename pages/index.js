@@ -12,7 +12,9 @@ export default function Home() {
     // <Layout home>
     <div className={utilStyles.main}>
       <Head>
-        <title>{siteTitle}</title>
+        <title>Satchel Birch Portfolio</title>
+        <meta name="description" content="hi" />
+        <link rel="icon" href="/images/Cube.svg" />
       </Head>
 
       <div>
@@ -74,9 +76,9 @@ export default function Home() {
   );
 }
 
-const Cursor = () => {
-  return <div className="cursor"/>
-}
+// const Cursor = () => {
+//   return <div className="cursor"/>
+// }
 
 
 

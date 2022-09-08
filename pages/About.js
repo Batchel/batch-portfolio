@@ -1,13 +1,13 @@
 import Link from 'next/link';
 import Head from 'next/head';
 import Image from 'next/image';
-import utilStyles from '../../styles/utils.module.css';
+import utilStyles from '../styles/utils.module.css';
 
-export default function Fun() {
+export default function About() {
     return(
         <div className={utilStyles.mainproj}>
             <Head>
-                <title>Easter Egg</title>
+                <title>About</title>
             </Head>
             <div>
                     <section className={utilStyles.backsign}>
@@ -17,16 +17,22 @@ export default function Fun() {
                     </section>
                     
                     <section className={utilStyles.heading2Xl}>
-                        <p>My favorite youtube video right now:</p>
+                        <p>About me</p>
                     </section>
                 
                     <section className={utilStyles.projectpar}>
                         <p>
-                        If you have time, this is worth a listen. 
-                        </p>
+                        Hey there!
+                        </p> 
                     </section>
 
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cEqgeN27Hhk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div>
+                        <Image src='/images/IportIM/Relayjig.jpg' width={1536} height={2048}/>
+                    </div>
+
+                    <div>
+                        <Image src='/images/IportIM/Relayjig.jpg' width={1536} height={2048}/>
+                    </div>
 
             </div>
         </div>

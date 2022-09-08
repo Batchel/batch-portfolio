@@ -60,7 +60,6 @@ export default function personalprojects() {
                         </div>
 
                     </div>
-
             </div>
         </div>
     );

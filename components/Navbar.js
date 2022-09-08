@@ -16,14 +16,14 @@ const Navbar = () => {
             </Link>
             <ul className={styles.navmenu}>
                 <li className={styles.navitem}>
-                    <Link href='/'>
+                    <Link href="/">
                         <a className={styles.navlink}>About</a>
                     </Link>
                 </li>
                 <li className={styles.navitem}>
-                    <Link href='/'>
+                    <a href={'https://drive.google.com/file/d/1m-XAPTppRWbQLl60Igs8-shrN5Nim6Jx/view?usp=sharing'} target="_blank" >
                         <a className={styles.navlink}>Resume</a>
-                    </Link>
+                    </a>
                 </li>
             </ul>
         </nav>
