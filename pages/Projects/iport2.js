@@ -9,30 +9,33 @@ export default function iport2() {
             <Head>
                 <title>Designing enterprise solutions for Apple products</title>
             </Head>
+
             <div>
+
+                <div className={utilStyles.menu}>
                     <section className={utilStyles.backsign}>
-                    <Link href="/Projects/iport">
-                        <a className={utilStyles.menu}> <span className={utilStyles.backarrow}> &lsaquo; </span> Back</a>
-                    </Link>
+                        <Link href="/iport">  
+                            <a>
+                                <span className={utilStyles.backarrow}> &lsaquo; </span> Back
+                            </a>
+                        </Link>
                     </section>
-                    
-                    <section className={utilStyles.heading2Xl}>
-                        <p>IPORT: Side Projects.</p>
-                    </section>
+                </div>
                 
-                    <section className={utilStyles.projectpar}>
-                        <p>
-                        Here is a selection of other things I worked on during my summer at IPORT. 
-                        </p>
-                    </section>
+                <section className={utilStyles.heading2Xl}>
+                    <p>IPORT: Side Projects.</p>
+                </section>
+            
+                <section className={utilStyles.projectpar}>
+                    <p> Here is a selection of other things I worked on during my summer at IPORT. </p>
+                </section>
 
-                    <div>
-                        <Image src='/images/IportIM/Relayjig.jpg' width={1536} height={2048}/>
-                    </div>
-
+                <div>
+                    <Image src='/images/IportIM/Relayjig.jpg' width={1536} height={2048}/>
+                </div>
 
             </div>
         </div>
     );
-    
+
 } 

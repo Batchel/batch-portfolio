@@ -9,23 +9,26 @@ export default function personalprojects() {
             <Head>
                 <title>Personal projects and design thinking</title>
             </Head>
+
             <div>
-                    <section className={utilStyles.backsign}>
-                    <Link href="/">
-                        <a className={utilStyles.menu}> <span className={utilStyles.backarrow}> &lsaquo; </span> Back</a>
-                    </Link>
-                    </section>
+                    <div className={utilStyles.menu}>
+                        <section className={utilStyles.backsign}>
+                            <Link href="/">  
+                                <a>
+                                    <span className={utilStyles.backarrow}> &lsaquo; </span> Back
+                                </a>
+                            </Link>
+                        </section>
+                    </div>
                     
                     <section className={utilStyles.heading2Xl}>
                         <p>Personal projects and design thinking</p>
                     </section>
                 
                     <section className={utilStyles.projectpar}>
-                        <p>
-                        This is a collection of other engineering and design projects, sketches, ideas, and 
+                        <p> This is a collection of other engineering and design projects, sketches, ideas, and 
                         explorations that represent who I am as a creater, thinker, and person. I hope that something 
-                        here can spark a new idea - or maybe just joy.
-                        </p>
+                        here can spark a new idea - or maybe just joy. </p>
                     </section>
 
                     <div className={utilStyles.pgrid}>
@@ -35,7 +38,6 @@ export default function personalprojects() {
                         </div>
 
                         <div>
-
                             <Image src='/images/Personalprojects/Pencilfront.jpg' width={2048} height={1536}/>
                         </div>
 
