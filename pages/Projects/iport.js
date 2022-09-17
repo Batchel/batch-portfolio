@@ -8,6 +8,8 @@ import "@fontsource/crimson-text";
 
 export default function iport() {
     return(
+
+    <div>
         <div className={utilStyles.mainproj}>
             <Head>
                 <title>Designing enterprise solutions for Apple products</title>
@@ -114,6 +116,9 @@ export default function iport() {
                     />
                 </div>
 
+
+
+                {/*
                 <div>
                     <Image src='/images/IportIM/IpadStandup.jpg'
                     width = {2048}
@@ -207,11 +212,18 @@ export default function iport() {
                     width = {2048}
                     height = {1536}
                     />
-                </div>
-
+    </div>*/}
 
             </div>
         </div>
+        
+        <div className={utilStyles.gradmargin}>
+            <Image src = '/images/IportIM/grad2.png' width = {2650} height = {1500} />
+            <section className={utilStyles.headingip}>
+                    <p>This product is still under development, but please send me an e-mail if you are interested and want to know more!</p>
+            </section>
+        </div>
+    </div>
     );
     
 } 

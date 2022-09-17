@@ -31,37 +31,49 @@ export default function personalprojects() {
                         here can spark a new idea - or maybe just joy. </p>
                     </section>
 
+                    <div className={utilStyles.imdiv}>
+                        <Image src='/images/Personalprojects/Lampsketch1.jpg' width={1536} height={2048}/>
+                    </div>
+                    
                     <div className={utilStyles.pgrid}>
-
-                        <div>
-                            <Image src='/images/Personalprojects/Building.png' width={3200} height={2178}/>
-                        </div>
-
-                        <div>
-                            <Image src='/images/Personalprojects/Pencilfront.jpg' width={2048} height={1536}/>
-                        </div>
-
-                        <div>
-                            <Image src='/images/Personalprojects/pencilISO.jpg' width={1536} height={2048}/>
-                        </div>
-
-                        <div>
+                        <div className={utilStyles.imdiv}>
                             <Image src='/images/Personalprojects/Lampview.jpg' width={1536} height={2048}/>
                         </div>
-
                         <div>
                             <Image src='/images/Personalprojects/Lampfront.jpg' width={1536} height={2048}/>
                         </div>
+                    </div>
+
+                    <section className={utilStyles.padding}> </section>
+
+                    <div className={utilStyles.pgrid}>
 
                         <div>
-                            <Image src='/images/Personalprojects/Lampsketch1.jpg' width={1536} height={2048}/>
+                                <Image src='/images/Personalprojects/PencilISO.jpg' width={1536} height={2048}/>
                         </div>
-
                         <div>
-                            <Image src='/images/Personalprojects/AUVclip.png' width={2360} height={1640}/>
+                                <Image src='/images/Personalprojects/Pencilfront.jpg' width={2048} height={1536}/>
                         </div>
 
                     </div>
+
+                    <section className={utilStyles.padding}>
+
+                    </section>
+
+                    <div>
+                            <Image src='/images/Personalprojects/AUVclip.png' width={2360} height={1640}/>
+                    </div>
+
+
+                    <section className={utilStyles.padding}>
+
+                    </section>
+                    
+                    <div>
+                            <Image src='/images/Personalprojects/Building.png' width={3200} height={2178}/>
+                    </div>
+
             </div>
         </div>
     );

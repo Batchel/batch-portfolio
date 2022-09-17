@@ -124,6 +124,7 @@
 
 .navlink {
   text-transform: none;
+  font-family: Assistant;
 }
 
 .navlink:hover {
@@ -134,6 +135,7 @@
 .navitem {
   display: flex;
   margin-left: -3%;
+  margin-top: -8%;
   list-style: none;
   font-family: Assistant;
   color: gray;
