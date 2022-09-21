@@ -55,29 +55,34 @@ export default function About() {
                     </div>
 
                     <div>
+                        <div className={utilStyles.aboutmargin}>
+                            <section className={utilStyles.headingMd}>
+                                <p> &#8595;&#8595;&#8595;</p>
+                            </section>
 
-                        <div className={utilStyles.gridim}>
-                            <div className={utilStyles.img1}>
-                                <Image src='/images/about/Chess.jpg' width={1024} height={1545}/>
+                            <div className={utilStyles.gridim}>
+                                <div className={utilStyles.img1}>
+                                    <Image src='/images/about/Chess.jpg' width={1024} height={1545}/>
+                                </div>
                             </div>
-                        </div>
 
-                        <div className={utilStyles.gridim}>
-                            <div className={utilStyles.img1}>
-                                <Image src='/images/about/satchel.png' width={1024} height={1545}/>
+                            <div className={utilStyles.gridim}>
+                                <div className={utilStyles.img2}>
+                                    <Image src='/images/about/satchel.png' width={1024} height={1545}/>
+                                </div>
                             </div>
-                        </div>
 
-                        <div className={utilStyles.gridim}>
-                            <div className={utilStyles.img1}>
-                                <Image src='/images/about/light.jpeg' width={4032} height={3024}/>
+                            <div className={utilStyles.gridim}>
+                                <div className={utilStyles.img3}>
+                                    <Image src='/images/about/light.jpeg' width={4032} height={3024}/>
+                                </div>
                             </div>
-                        </div>
 
-                        <div className={utilStyles.gridim}>
-                            <div className={utilStyles.img1}>
-                                <Image src='/images/about/skate.jpg' width={1536} height={2317}/>
-                            </div>
+                            {/*<div className={utilStyles.gridim}>
+                                <div className={utilStyles.img4}>
+                                    <Image src='/images/about/skate.jpg' width={1536} height={2317}/>
+                                </div>
+                            </div>*/}
                         </div>
 
                     </div>
