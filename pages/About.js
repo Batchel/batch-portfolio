@@ -35,19 +35,19 @@ export default function About() {
                                 struggling up a rock climbing wall, and collecting stickers.</p> 
                         
                             <div>
-                                <a className={utilStyles.menu} href={"https://xd.adobe.com/view/89ce28ac-74bf-42c8-93f0-0429cae789df-dc9d/"} target="_blank">
+                                <a className={utilStyles.menu} href={"https://xd.adobe.com/view/89ce28ac-74bf-42c8-93f0-0429cae789df-dc9d/"} target="_blank" rel="noreferrer">
                                     + A UX/UI prototype for an Adobe Creative Jam Challenge
                                 </a>
                             </div>
 
                             <div>
-                                <a className={utilStyles.menu} href={"https://open.spotify.com/track/0TcIjFIa2MNUhbTV2WYMzJ?si=fd99e119d0b44c4d"} target="_blank">
+                                <a className={utilStyles.menu} href={"https://open.spotify.com/track/0TcIjFIa2MNUhbTV2WYMzJ?si=fd99e119d0b44c4d"} target="_blank" rel="noreferrer">
                                     + A song I wrote with my sister
                                 </a>
                             </div>
 
                             <div>
-                                <a className={utilStyles.menu} href={"https://drive.google.com/file/d/1MYPlcOkZ0Yqiocrgqeg97gWZ2SSHLtZk/view"} target="_blank">
+                                <a className={utilStyles.menu} href={"https://drive.google.com/file/d/1MYPlcOkZ0Yqiocrgqeg97gWZ2SSHLtZk/view"} target="_blank" rel="noreferrer">
                                     + An architecture portfolio
                                 </a>
                             </div>
@@ -62,19 +62,19 @@ export default function About() {
 
                             <div className={utilStyles.gridim}>
                                 <div className={utilStyles.img1}>
-                                    <Image src='/images/about/Chess.jpg' width={1024} height={1545}/>
+                                    <Image src='/images/about/Chess.jpg' width={1024} height={1545} alt=""/>
                                 </div>
                             </div>
 
                             <div className={utilStyles.gridim}>
                                 <div className={utilStyles.img2}>
-                                    <Image src='/images/about/satchel.png' width={1024} height={1545}/>
+                                    <Image src='/images/about/satchel.png' width={1024} height={1545} alt=""/>
                                 </div>
                             </div>
 
                             <div className={utilStyles.gridim}>
                                 <div className={utilStyles.img3}>
-                                    <Image src='/images/about/light.jpeg' width={4032} height={3024}/>
+                                    <Image src='/images/about/light.jpeg' width={4032} height={3024} alt=""/>
                                 </div>
                             </div>
 

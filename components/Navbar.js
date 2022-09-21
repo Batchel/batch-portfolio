@@ -22,7 +22,7 @@ const Navbar = () => {
                 </li>
 
                 <li className={styles.navitem}>
-                    <a href={'https://drive.google.com/file/d/1m-XAPTppRWbQLl60Igs8-shrN5Nim6Jx/view?usp=sharing'} target="_blank" >
+                    <a href={'https://drive.google.com/file/d/1m-XAPTppRWbQLl60Igs8-shrN5Nim6Jx/view?usp=sharing'} target="_blank" rel="noreferrer">
                         <p className={styles.navlink}>Resume</p>
                     </a>
                 </li>

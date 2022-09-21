@@ -31,9 +31,9 @@ export default function Home() {
             <section className={utilStyles.headingMd}>
               <p>
                 I&rsquo;m a former design engineering intern for {' '}
-                <a className={utilStyles.menu} href={"https://www.iportproducts.com/"} target="_blank">  IPORT </a> 
+                <a className={utilStyles.menu} href={"https://www.iportproducts.com/"} target="_blank" rel="noreferrer">  IPORT </a> 
                 {' '}and current mechanical lead at {' '}
-                <a className={utilStyles.menu} href={"https://www.linkedin.com/company/yonderdeep/"} target="_blank">  Yonder Deep</a>
+                <a className={utilStyles.menu} href={"https://www.linkedin.com/company/yonderdeep/"} target="_blank" rel="noreferrer">  Yonder Deep</a>
                 . I&rsquo;m also a 4th year mechanical engineering major at UCSD specializing in controls + robotics.
               </p>
             </section>
