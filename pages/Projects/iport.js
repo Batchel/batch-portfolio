@@ -118,7 +118,6 @@ export default function iport() {
 
 
 
-                {/*
                 <div>
                     <Image src='/images/IportIM/IpadStandup.jpg'
                     width = {2048}
@@ -177,20 +176,31 @@ export default function iport() {
                     />
                 </div>
 
-
-                <section className={utilStyles.padding}>
-
+                <section className={utilStyles.projectpar}>
+                    <p> I am super grateful to have worked with the IPORT engineering team on this product and 
+                        I'm excited to see where they go next. </p>
                 </section>
 
-                <section className={utilStyles.headingXl}>
+                <section className={utilStyles.projectpar}>
+                    <div>
+                            <a className={utilStyles.menu} href={"https://www.iportproducts.com/retail"} target="_blank" rel="noreferrer">
+                                + See IPORT Retail products including the handstand and more!
+                            </a>
+                    </div>
+                </section>
+
+                {/*<section className={utilStyles.padding}>
+
+    </section>*/}
+
+               {/*} <section className={utilStyles.headingXl}>
                     <p>Alternate Design</p>
                 </section>
 
                 <section className={utilStyles.projectpar}>
-                    <p> After developing a few designs within the project parameters, I decided to explore
-                    an alternate option that I thought was worth looking into. Through many discussions and 
-                    some user research, I noticed that there may not be an explicit need for that amount of customizability
-                    we had provided with our current design. I went about designing a new handstrap that was built for only 2. </p>
+                    <p> After developing a few designs within the project parameters, I also decided to explore
+                    an alternate option for fun.
+                    </p>
                 </section>
 
                 <div>
@@ -212,17 +222,19 @@ export default function iport() {
                     width = {2048}
                     height = {1536}
                     />
-    </div>*/}
+                </div>*/}
 
             </div>
         </div>
         
+        {/*}
         <div className={utilStyles.gradmargin}>
             <Image src = '/images/IportIM/grad2.png' width = {2650} height = {1500} />
             <section className={utilStyles.headingip}>
                     <p>This product is still under development, but please send me an e-mail if you are interested and want to know more!</p>
             </section>
-        </div>
+        </div> */}
+
     </div>
     );
     

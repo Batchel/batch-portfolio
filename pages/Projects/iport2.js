@@ -25,15 +25,17 @@ export default function iport2() {
                 <section className={utilStyles.heading2Xl}>
                     <p>IPORT: Side Projects.</p>
                 </section>
-            
+
                 <section className={utilStyles.projectpar}>
-                    <p> Here is a selection of other things I worked on during my summer at IPORT. </p>
+                    <p> An Arduino controlled relay device to manually turn on/off each of the 8 pins on a lightning connector
+                        with different time delays:</p>
+                    <div>
+                        <Image src='/images/IportIM/Relayjig.jpg' width={1536} height={2048}/>
+                    </div>
+
                 </section>
 
-                <div>
-                    <Image src='/images/IportIM/Relayjig.jpg' width={1536} height={2048}/>
-                </div>
-
+                
             </div>
         </div>
     );
