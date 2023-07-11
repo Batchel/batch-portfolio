@@ -143,7 +143,7 @@ export default function iport() {
                 <section className={utilStyles.projectpar}>
                     <p> There are existing locking holes on the IPORT iPad case for other products, which 
                     was the method we chose to lock the stand to the case. The important choice to be made was how
-                    the user installed the stand and interacted with the locking mechanism. So I prototyped a sample '&quot;'auto-locking'&quot;'
+                    the user installed the stand and interacted with the locking mechanism. So I prototyped a sample &quot;auto-locking&quot;
                     mechanism that could provide a tactile feel for a spring loaded lock, and also prototyped another option which
                     required a tool.</p>
                 </section>
@@ -178,7 +178,7 @@ export default function iport() {
 
                 <section className={utilStyles.projectpar}>
                     <p> I am super grateful to have worked with the IPORT engineering team on this product and 
-                        I'&apos;'m excited to see where they go next. </p>
+                        I&apos;m excited to see where they go next. </p>
                 </section>
 
                 <section className={utilStyles.projectpar}>
