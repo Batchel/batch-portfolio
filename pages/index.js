@@ -34,7 +34,7 @@ export default function Home() {
                 <a className={utilStyles.menu} href={"https://www.iportproducts.com/"} target="_blank" rel="noreferrer">  IPORT </a> 
                 {' '}and current project director at {' '}
                 <a className={utilStyles.menu} href={"https://www.linkedin.com/company/yonderdeep/"} target="_blank" rel="noreferrer">  Yonder Deep</a>
-                . I&rsquo;m also a recent graduate from UC San Diego with a BS in Mechanical Engineering and specialization in controls + robotics.
+                . I am also a recent graduate from UC San Diego with a BS in Mechanical Engineering - Specialization in controls + robotics.
               </p>
             </section>
 
