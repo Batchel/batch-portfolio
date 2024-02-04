@@ -25,16 +25,16 @@ export default function Home() {
 
           <div className={utilStyles.card}>
             <section className={utilStyles.heading2Xl}>
-              <p>I&rsquo;m Satchel. I&rsquo;m a Mechanical Engineer with a passion for industrial design and sustainability.</p>
+              <p>I&rsquo;m Satchel. a mechanical engineer with a passion for industrial design and sustainability.</p>
             </section>
 
             <section className={utilStyles.headingMd}>
               <p>
-                I&rsquo;m a former design engineering intern for {' '}
-                <a className={utilStyles.menu} href={"https://www.iportproducts.com/"} target="_blank" rel="noreferrer">  IPORT </a> 
-                {' '}and current project director at {' '}
-                <a className={utilStyles.menu} href={"https://www.linkedin.com/company/yonderdeep/"} target="_blank" rel="noreferrer">  Yonder Deep</a>
-                . I am also a recent graduate from UC San Diego with a BS in Mechanical Engineering - Specialization in controls + robotics.
+                I&rsquo;m currently a mechanical engineer for <b>L3Harris</b>, a former design engineering intern for {' '}
+                <a className={utilStyles.menu} href={"https://www.iportproducts.com/"} target="_blank" rel="noreferrer">  <b>IPORT</b>, </a> 
+                {' '}and current Advisor and former project director at {' '}
+                <a className={utilStyles.menu} href={"https://www.linkedin.com/company/yonderdeep/"} target="_blank" rel="noreferrer">  <b>Yonder Deep</b></a>
+                . Graduate from UC San Diego with a BS in Mechanical Engineering - Specialization in controls + robotics.
               </p>
             </section>
 
@@ -45,24 +45,31 @@ export default function Home() {
             <section className={utilStyles.headingMd}>
 
               <div className={utilStyles.menu}>
-                <Link href="/Projects/iport"><a>+ Designing enterprise solutions for Apple products</a></Link>
+                <Link href="/Projects/iport"><a>
+                  + Designing enterprise solutions for Apple products</a></Link>
               </div>
 
               <div className={utilStyles.menu}>
                 <Link href="/Projects/yonderdeep">
-                  + Leading a team in developing a 3D printed AUV for climate change
+                  + Developing a 3D printed AUV for climate change
+                </Link>
+              </div>
+
+              <div className={utilStyles.menu}>
+                <Link href="/Projects/arctic">
+                  + Research Trip to the Arctic Circle
                 </Link>
               </div>
 
               <div className={utilStyles.menu}>
                 <Link href="/Projects/personalprojects">
-                  + The way I design and how I think
+                  + How I design and think
                 </Link>
               </div>
 
               <div className={utilStyles.menu}>
                 <Link href="/Projects/Fun">
-                  + Click here too!
+                  + Click here... maybe?
                 </Link>
               </div>
 

@@ -32,23 +32,26 @@ export default function About() {
                             <p> Thanks for visiting my website. </p> 
 
                             <p> Along with engineering and design, I spend my time writing songs on the guitar,
-                                struggling up a rock climbing wall, and collecting stickers.</p> 
+                                struggling up a rock climbing wall, and drinking maybe too much coffee. If you ever have questions or 
+                                want to chat, hit me up! I'm always down.</p> 
+                            
+                            <p> If you want to continue your journey...</p> 
                         
                             <div>
                                 <a className={utilStyles.menu} href={"https://xd.adobe.com/view/89ce28ac-74bf-42c8-93f0-0429cae789df-dc9d/"} target="_blank" rel="noreferrer">
-                                    + A UX/UI prototype for an Adobe Creative Jam Challenge
+                                    <i>+ A UX/UI prototype for an Adobe Creative Jam Challenge</i>
                                 </a>
                             </div>
 
                             <div>
                                 <a className={utilStyles.menu} href={"https://open.spotify.com/track/0TcIjFIa2MNUhbTV2WYMzJ?si=fd99e119d0b44c4d"} target="_blank" rel="noreferrer">
-                                    + A song I wrote with my sister
+                                    <i>+ A song I wrote with my sister</i>
                                 </a>
                             </div>
 
                             <div>
                                 <a className={utilStyles.menu} href={"https://drive.google.com/file/d/1MYPlcOkZ0Yqiocrgqeg97gWZ2SSHLtZk/view"} target="_blank" rel="noreferrer">
-                                    + An architecture portfolio
+                                    <i>+ An architecture portfolio</i>
                                 </a>
                             </div>
                         </section>
@@ -62,7 +65,7 @@ export default function About() {
 
                             <div className={utilStyles.gridim}>
                                 <div className={utilStyles.img1}>
-                                    <Image src='/images/about/Chess.jpg' width={1024} height={1545} alt=""/>
+                                    <Image src='/images/about/skate.jpg' width={1024} height={1545} alt=""/>
                                 </div>
                             </div>
 
