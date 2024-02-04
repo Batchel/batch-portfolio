@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import utilStyles from '../../styles/utils.module.css';
 
-export default function yonderdeep() {
+export default function arctic() {
     return(
         <div className={utilStyles.mainproj}>
             <Head>
@@ -71,19 +71,19 @@ export default function yonderdeep() {
                     </section>
 
                     <div>
-                        <Image src='/images/arctic/DSC_1501.jpg' width={1504} height={1000}/>
+                        <Image src='/images/Arctic/DSC_1501.jpg' width={1504} height={1000}/>
                     </div>
 
                     <div>
-                        <Image src='/images/arctic/DSC_1516.jpg' width={1504} height={1000}/>
+                        <Image src='/images/Arctic/DSC_1516.jpg' width={1504} height={1000}/>
                     </div>
 
                     <div>
-                        <Image src='/images/arctic/DSC_1558.jpg' width={4413} height={2758}/>
+                        <Image src='/images/Arctic/DSC_1558.jpg' width={4413} height={2758}/>
                     </div>
 
                     <div>
-                        <Image src='/images/arctic/DSC_1466.jpg' width={1504} height={1000}/>
+                        <Image src='/images/Arctic/DSC_1466.jpg' width={1504} height={1000}/>
                     </div>
 
                     <section className={utilStyles.projectpar}>
@@ -94,15 +94,15 @@ export default function yonderdeep() {
                     </section>
 
                     <div>
-                        <Image src='/images/arctic/DSC_1632.jpg' width={1504} height={1000}/>
+                        <Image src='/images/Arctic/DSC_1632.jpg' width={1504} height={1000}/>
                     </div>
 
                     <div>
-                        <Image src='/images/arctic/DSC_1744.jpg' width={1504} height={1000}/>
+                        <Image src='/images/Arctic/DSC_1744.jpg' width={1504} height={1000}/>
                     </div>
 
                     <div>
-                        <Image src='/images/arctic/DSC_1769.jpg' width={1504} height={1000}/>
+                        <Image src='/images/Arctic/DSC_1769.jpg' width={1504} height={1000}/>
                     </div>
 
                     <section className={utilStyles.projectpar}>
