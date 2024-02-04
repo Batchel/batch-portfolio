@@ -33,7 +33,7 @@ export default function About() {
 
                             <p> Along with engineering and design, I spend my time writing songs on the guitar,
                                 struggling up a rock climbing wall, and drinking maybe too much coffee. If you ever have questions or 
-                                want to chat, hit me up! I'm always down.</p> 
+                                want to chat, hit me up! I&rsquo;m always down.</p> 
                             
                             <p> If you want to continue your journey...</p> 
                         
