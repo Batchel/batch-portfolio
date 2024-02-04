@@ -36,11 +36,11 @@ export default function arctic() {
                     </section>
 
                     <div>
-                        <Image src='/images/arctic/DSC_1779.jpg' width={1504} height={1000}/>
+                        <Image src='/images/Arctic/DSC_1779.jpg' width={1504} height={1000}/>
                     </div>
 
                     <div>
-                        <Image src='/images/arctic/DSC_1562.jpg' width={1504} height={1000}/>
+                        <Image src='/images/Arctic/DSC_1562.jpg' width={1504} height={1000}/>
                     </div>
 
                     <section className={utilStyles.headingXl}>
