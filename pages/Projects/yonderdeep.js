@@ -31,7 +31,7 @@ export default function yonderdeep() {
                         3D printed autonomous underwater vehicle for accessible oceanographic research and climate 
                         change research. </p>
 
-                        <p> The team's current mission is to deploy in Svalbard, Norway in Summer 2025, and take audio readings
+                        <p> The team&lsaquo;s current mission is to deploy in Svalbard, Norway in Summer 2025, and take audio readings
                         of a glacier terminus to listen for small air bubbles trapped in the ice *popping*. We hope that this
                         will give us insight into the rate at which the glacier is melting. </p>
 
@@ -137,7 +137,7 @@ export default function yonderdeep() {
                             <section className={utilStyles.projectpar}>
                             <p>
                                 There were lots of late nights working in our lab space, broken solder joints, and snapped 3D prints - which could be pretty demoralizing given that some of our parts would take more than a day to reprint. Additionally, we didnt have the pressure of
-                                a competition or nearby deadlines. You would think this made things easier, but I would argue that it made it even tougher to stay motivated. We were the only people pushing ourselves to meet our own deadlines, and often failing.
+                                a competition or nearby deadlines. You would think this made things easier, but I would argue that it made it even tougher to stay motivated. We were the only people pushing ourselves to meet our own deadlines, and often falling just short.
                             </p>
 
                             <section className={utilStyles.projectpar}>

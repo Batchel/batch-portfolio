@@ -42,7 +42,7 @@ export default function mask() {
                             infected aerosols spreading from beneath the mask seal. Around the onset of Covid-19, Dr. Orr came up with an idea for a vacuum assisted mask that would in theory evacuate any infected droplets
                             that escaped from beneath the initial skin / mask barrier, and also improve oxygen deliverance to the patient. </p>
 
-                        <p> Over 15 weeks, our team's job was to take Dr. Orr's initial low-fidelity prototype and redesign a fully functioning proof of concept from the ground up in order for Dr. Orr to adequately showcase
+                        <p> Over 15 weeks, our team&lsaquo;s job was to take Dr. Orr&lsaquo;s initial low-fidelity prototype and redesign a fully functioning proof of concept from the ground up in order for Dr. Orr to adequately showcase
                             his idea to potential stakeholders.
                         </p>
                     </section>
@@ -129,9 +129,9 @@ export default function mask() {
                     </div>
 
 
-                    <p> See the full project website and Dr. Orr's mask website below!
+                    <p> See the full project website and Dr. Orr&lsaquo;s mask website below!
                     </p>
-                    
+
                     <p>
                                 <a className={utilStyles.menu} href={"https://sites.google.com/eng.ucsd.edu/mae-156b-team15-spring-2023/multimedia/testing?authuser=0"} target="_blank" rel="noreferrer">
                                         <i>+ Project Website</i>
@@ -139,7 +139,7 @@ export default function mask() {
                     </p>
                     <p>
                                 <a className={utilStyles.menu} href={"https://www.mask-interface.com/home"} target="_blank" rel="noreferrer">
-                                        <i>+ Dr. Jeremy Orr's Website</i>
+                                        <i>+ Dr. Jeremy Orr&lsaquo;s Website</i>
                                 </a>
                     </p>
                     </section>
