@@ -35,6 +35,18 @@ export default function iport2() {
 
                 </section>
 
+                <section className={utilStyles.projectpar}>
+                    <p> Quick connect electrical stands for quality control</p>
+                    <div>
+                        <Image src='/images/IportIM/vesa.jpg' width={4032} height={3024}/>
+                    </div>
+
+                    <div>
+                        <Image src='/images/IportIM/stands.jpg' width={4032} height={3024}/>
+                    </div>
+
+                </section>
+
                 
             </div>
         </div>

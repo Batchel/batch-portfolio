@@ -56,14 +56,20 @@ export default function Home() {
               </div>
 
               <div className={utilStyles.menu}>
+                <Link href="/Projects/mask">
+                  + Proving a novel respiratory mask concept
+                </Link>
+              </div>
+
+              <div className={utilStyles.menu}>
                 <Link href="/Projects/arctic">
-                  + Research Trip to the Arctic Circle
+                  + Research trip to the Arctic Circle
                 </Link>
               </div>
 
               <div className={utilStyles.menu}>
                 <Link href="/Projects/personalprojects">
-                  + How I design and think
+                  + How I design & How I think
                 </Link>
               </div>
 
