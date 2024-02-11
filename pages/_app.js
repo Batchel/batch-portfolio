@@ -14,3 +14,5 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp
+
+/* <Image src='/images/dotpath.svg' width={100} height={450}/> */
