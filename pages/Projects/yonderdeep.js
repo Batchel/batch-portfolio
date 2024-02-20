@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Head from 'next/head';
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import utilStyles from '../../styles/utils.module.css';
 
 export default function yonderdeep() {
@@ -14,9 +14,7 @@ export default function yonderdeep() {
                 <div className={utilStyles.menu}>
                     <section className={utilStyles.backsign}>
                         <Link href="/">  
-                            <a>
                                 <span className={utilStyles.backarrow}> &lsaquo; </span> Back
-                            </a>
                         </Link>
                     </section>
                 </div>
@@ -56,10 +54,8 @@ export default function yonderdeep() {
                         </p>
 
                         <p>
-                        <Link href="/Projects/arctic">
-                            <a className={utilStyles.menu}> 
+                        <Link href="/Projects/arctic" className={utilStyles.menu}> 
                             <i>+ June 2023: I traveled to the arctic on a research expedition as part of this campaign.</i>
-                            </a>
                         </Link>
                         </p>
 

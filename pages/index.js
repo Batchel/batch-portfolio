@@ -2,9 +2,10 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 import "@fontsource/source-sans-pro";
 import "@fontsource/crimson-text";
+
 
 
 export default function Home() {
@@ -45,8 +46,8 @@ export default function Home() {
             <section className={utilStyles.headingMd}>
 
               <div className={utilStyles.menu}>
-                <Link href="/Projects/iport"><a>
-                  + Designing enterprise solutions for Apple products</a></Link>
+                <Link href="/Projects/iport">
+                  + Designing enterprise solutions for Apple products</Link>
               </div>
 
               <div className={utilStyles.menu}>

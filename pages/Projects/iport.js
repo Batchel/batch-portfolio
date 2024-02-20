@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Head from 'next/head';
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import utilStyles from '../../styles/utils.module.css';
 import "@fontsource/source-sans-pro";
 import "@fontsource/crimson-text";
@@ -19,9 +19,7 @@ export default function iport() {
                 <div className={utilStyles.menu}>
                     <section className={utilStyles.backsign}>
                         <Link href="/">
-                            <a>
                                 <span className={utilStyles.backarrow}> &lsaquo; </span> Back
-                            </a>
                         </Link>
                     </section>
                 </div>
@@ -38,15 +36,14 @@ export default function iport() {
                 </section>
 
                 <section className={utilStyles.projectpar}>
-                        <Link href="/Projects/iport2">
-                            <a className={utilStyles.menu}> 
+                        <Link href="/Projects/iport2" className={utilStyles.menu}> 
                                 + If you want to see other small side projects I did while at IPORT, <b>click here!</b> 
-                            </a>
                         </Link>
                 </section>
 
                 <div>
-                    <Image src='/images/IportIM/Ipadflathandcrop.jpg' width={2048} height={922}/>
+                    <Image src='/images/IportIM/Ipadflathandcrop.jpg' width={2048} height={922}
+                    />
                 </div>
                 
                 <section className={utilStyles.projectpar}>

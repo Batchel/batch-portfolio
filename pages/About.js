@@ -14,9 +14,7 @@ export default function About() {
                 <div className={utilStyles.menu}>
                     <section className={utilStyles.backsign}>
                         <Link href="/"> 
-                            <a>
                                 <span className={utilStyles.backarrow}> &lsaquo; </span> Back
-                            </a> 
                         </Link>
                     </section>
                 </div>

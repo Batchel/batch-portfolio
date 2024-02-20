@@ -8,16 +8,15 @@ const Navbar = () => {
     return (
         <nav className={styles.navbar}>
             <Link href='/'>
-                <a>
+                
                     <span>
                         <Image src='/../images/IportIM/softcube.svg' alt="Home" width={300} height={70} />
                     </span>
-                </a>
+                
             </Link>
             <ul className={styles.navmenu}>
                 <li className={styles.navitem}>
-                    <Link href="/About">
-                        <a className={styles.navlink}>About</a>
+                    <Link href="/About" className={styles.navlink}>About
                     </Link>
                 </li>
 

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Head from 'next/head';
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import utilStyles from '../../styles/utils.module.css';
 
 export default function mask() {
@@ -14,9 +14,7 @@ export default function mask() {
                 <div className={utilStyles.menu}>
                     <section className={utilStyles.backsign}>
                         <Link href="/">  
-                            <a>
                                 <span className={utilStyles.backarrow}> &lsaquo; </span> Back
-                            </a>
                         </Link>
                     </section>
                 </div>
@@ -34,8 +32,11 @@ export default function mask() {
                                 </a>
                         </p>
 
-                        <div>
-                        <Image src='/images/Mask/Mask3crop.jpg' width={1309} height={808}/>
+                        <div className={utilStyles.imdiv2}>
+                        <Image 
+                            src='/images/Mask/Mask3crop.jpg' 
+                            width={1309} height={808}
+                        />
                         </div>
                 
                         <p> Leaks are a common problem with respiratory masks used for non-invasive ventilation in hospitals. This problem is both a loss of oxygen delivered to the patient, and an increased risk of
@@ -133,14 +134,14 @@ export default function mask() {
                     </p>
 
                     <p>
-                                <a className={utilStyles.menu} href={"https://sites.google.com/eng.ucsd.edu/mae-156b-team15-spring-2023/multimedia/testing?authuser=0"} target="_blank" rel="noreferrer">
+                                <Link className={utilStyles.menu} href={"https://sites.google.com/eng.ucsd.edu/mae-156b-team15-spring-2023/multimedia/testing?authuser=0"} target="_blank" rel="noreferrer">
                                         <i>+ Project Website</i>
-                                </a>
+                                </Link>
                     </p>
                     <p>
-                                <a className={utilStyles.menu} href={"https://www.mask-interface.com/home"} target="_blank" rel="noreferrer">
+                                <Link className={utilStyles.menu} href={"https://www.mask-interface.com/home"} target="_blank" rel="noreferrer">
                                         <i>+ Dr. Jeremy Orr&lsaquo;s Website</i>
-                                </a>
+                                </Link>
                     </p>
                     </section>
 
