@@ -82,7 +82,7 @@
 
   .grid {
     display: grid;
-    grid-template-columns: 10% 90%;
+    grid-template-columns: 10vw 90vw;
     gap: 7%
     /* justify-content: center; */
     /* justify-items: center; */
@@ -109,7 +109,7 @@
 
 
   .main {
-    padding: 5% 15%;
+    padding: 5% 0%;
     width: 100vw;
   }
 
