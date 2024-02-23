@@ -82,7 +82,7 @@
 
   .grid {
     display: grid;
-    grid-template-columns: 10vw 90vw;
+    grid-template-columns: 10vh 90vh;
     gap: 7vw
     /* justify-content: center; */
     /* justify-items: center; */

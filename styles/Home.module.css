@@ -104,14 +104,15 @@
 }
 
 .logo {
-  height: 1em;
+  height: 1rem;
   margin-left: 0.5rem;
 }
 
 .navbar {
   display: flex;
   align-items: center;
-  padding: 2vh 1vw;
+  justify-content: space-between;
+  padding: 2vh 0vw 0vh 0vw;
 }
 
 .navmenu {
