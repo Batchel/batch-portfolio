@@ -112,7 +112,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2% 1%;
+  padding: 2vw 1vh;
 }
 
 .navmenu {
@@ -134,13 +134,13 @@
 
 .navitem {
   display: flex;
-  margin-left: -3%;
-  margin-top: -8%;
+  margin-left: -3vw;
+  margin-top: 0vh;
   list-style: none;
   font-family: Assistant;
   color: gray;
   font-size: 1rem;
-  padding: 2% 5rem;
+  padding: 2% 10vw;
 }
 
 @media (max-width: 600px) {
