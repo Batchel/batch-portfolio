@@ -110,13 +110,13 @@
 
   .main {
     padding: 5% 15%;
-    width: 100%;
+    width: 100vw;
   }
 
   .mainproj {
     padding: 5% 20%;         
     margin-bottom: 20%;
-    width: 100%;
+    width: 100vw;
   }
 
 
