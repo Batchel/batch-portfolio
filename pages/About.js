@@ -63,7 +63,7 @@ export default function About() {
 
                             <div className={utilStyles.gridim}>
                                 <div className={utilStyles.img1}>
-                                    <Image src='/images/about/skate.jpg' width={1024} height={1545} alt=""/>
+                                    <Image src='/images/about/skate.JPG' width={1024} height={1545} alt=""/>
                                 </div>
                             </div>
 
