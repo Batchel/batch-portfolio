@@ -26,16 +26,18 @@ export default function Home() {
 
           <div className={utilStyles.card}>
             <section className={utilStyles.heading2Xl}>
-              <p>I&rsquo;m Satchel. a mechanical engineer with a passion for industrial design and sustainability.</p>
+              <p>I&rsquo;m Satchel. A mechanical engineer with a passion for design and sustainability.</p>
             </section>
 
             <section className={utilStyles.headingMd}>
               <p>
-                I&rsquo;m currently a mechanical engineer for <b>L3Harris</b>, a former design engineering intern for {' '}
+                I&rsquo;m currently an Avionics Mechanical Engineer at {' '}
+                <a className={utilStyles.menu} href={"https://www.relativityspace.com/"} target="_blank" rel="noreferrer">  <b>Relativity Space</b>, </a>
+                a former design engineering intern for {' '}
                 <a className={utilStyles.menu} href={"https://www.iportproducts.com/"} target="_blank" rel="noreferrer">  <b>IPORT</b>, </a> 
-                {' '}and current Advisor and former project director at {' '}
-                <a className={utilStyles.menu} href={"https://www.linkedin.com/company/yonderdeep/"} target="_blank" rel="noreferrer">  <b>Yonder Deep</b></a>
-                . Graduate from UC San Diego with a BS in Mechanical Engineering - Specialization in controls + robotics.
+                {' '}and former project director at {' '}
+                <a className={utilStyles.menu} href={"https://yonderdeep.ucsd.edu/index.html"} target="_blank" rel="noreferrer">  <b>Yonder Deep</b></a>
+                . Graduate from UC San Diego with a BS in Mechanical Engineering with specialization in controls and robotics.
               </p>
             </section>
 
