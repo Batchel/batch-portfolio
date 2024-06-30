@@ -33,8 +33,8 @@ export default function Home() {
               <p>
                 I&rsquo;m currently an Avionics Mechanical Engineer at {' '}
                 <a className={utilStyles.menu} href={"https://www.relativityspace.com/"} target="_blank" rel="noreferrer">  <b>Relativity Space</b>, </a>
-                a former design engineering intern for {' '}
-                <a className={utilStyles.menu} href={"https://www.iportproducts.com/"} target="_blank" rel="noreferrer">  <b>IPORT</b>, </a> 
+                {/* a former design engineering intern for {' '}
+                <a className={utilStyles.menu} href={"https://www.iportproducts.com/"} target="_blank" rel="noreferrer">  <b>IPORT</b>, </a> */}
                 {' '}and former project director at {' '}
                 <a className={utilStyles.menu} href={"https://yonderdeep.ucsd.edu/index.html"} target="_blank" rel="noreferrer">  <b>Yonder Deep</b></a>
                 . Graduate from UC San Diego with a BS in Mechanical Engineering with specialization in controls and robotics.
